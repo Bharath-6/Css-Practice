@@ -1,0 +1,28 @@
+/* div{
+    width:100px;
+    height:100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+/* Question 3 */
+/* universeral coders intial they will kepp everthing zero */
+*{
+    padding:0;
+    margin:0;
+    color:white;
+}
+#navbar{
+    height:60px;
+    background-color: black;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

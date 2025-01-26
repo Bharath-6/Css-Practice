@@ -1,0 +1,28 @@
+.navbar {
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+li{
+    list-style-type: none;
+}
+.outer{
+    height: 400px;
+    width:400px;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 200px;
+    width:200px;
+    background-color: orange;
+    /* Third question answer that align-self has higher priority than align-item if we place .inner above the outer also align-self has higher priority */
+    /* align-self: start; */
+    
+}

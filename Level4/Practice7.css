@@ -1,0 +1,34 @@
+/* Explanation of media queries:
+   - max-width: 100px: applies styles when the viewport width is less than or equal to 100px.
+   - min-width: 200px: applies styles when the viewport width is greater than or equal to 200px.
+   - width: applies styles when the viewport width is exactly the specified value. */
+
+   div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+@media (max-width: 300px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    div {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    div {
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) {
+    div {
+        background-color: blue;
+    }
+}
